@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+
+    .date {
+        margin-top: 10px;
+        width: 300px;
+        text-align: right;
+    }
+
+    .separator {
+        margin: 0 20px;
+        position: relative;
+
+        .line {
+            position: absolute;
+            top: 0;
+            bottom: 4px;
+            width: 1px;
+            border-right: 4px dotted rgba(0,0,0, 0.2);
+        }
+    }
+
+    .content {
+        h1 {
+            margin-top: 0;
+        }
+    }
+
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { EXPERIENCES } from './data';
 
 @Component({
@@ -6,14 +6,8 @@ import { EXPERIENCES } from './data';
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent {
 
   experiences = EXPERIENCES;
-
-  constructor() { }
-
-  ngOnInit() {
-
-  }
 
 }
