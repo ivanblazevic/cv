@@ -5,6 +5,7 @@ import { OpenSourceComponent } from './open-source/open-source.component';
 import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'experience', pathMatch: 'full' },
   {
     path: 'experience',
     component: ExperienceComponent,
@@ -20,7 +21,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
