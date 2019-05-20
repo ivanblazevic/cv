@@ -8,6 +8,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { OpenSourceComponent } from './open-source/open-source.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceItemComponent } from './experience/experience-item/experience-item.component';
+import { OpenSourceItemComponent } from './open-source/open-source-item/open-source-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ExperienceItemComponent } from './experience/experience-item/experience
     ExperienceComponent,
     OpenSourceComponent,
     AboutComponent,
-    ExperienceItemComponent
+    ExperienceItemComponent,
+    OpenSourceItemComponent
   ],
   imports: [
     BrowserModule,
