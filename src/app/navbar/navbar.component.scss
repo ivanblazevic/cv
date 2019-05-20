@@ -1,6 +1,10 @@
+$color: #0f81ff;
+
 nav {
-    text-align: center;
-    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
     position: fixed;
     top: 0;
     right: 0;
@@ -31,8 +35,29 @@ ul {
             text-decoration: none;
 
             &.active {
-                color: #0f81ff;
+                color: $color;
             }
         }
+    }
+}
+
+#logo {
+    display: flex;
+}
+
+$profileImageSize: 60px;
+
+.profile-image {
+    border-radius: 100%;
+    width: $profileImageSize;
+    height: $profileImageSize;
+    padding: 4px;
+    vertical-align: middle;
+    border: 2px solid $color;
+
+    img {
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
     }
 }

@@ -1,0 +1,16 @@
+$color: #0f81ff;
+
+img {
+    border-radius: 100%;
+}
+
+.info-section {
+    i {
+        width: 30px;
+        text-align: center;
+    }
+
+    a {
+        color: $color;
+    }
+}
