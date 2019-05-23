@@ -1,0 +1,12 @@
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  .flex-item {
+    flex: 33.33%;
+    flex-grow: 0;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+  }
+}

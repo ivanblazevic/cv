@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Library } from '../libraries.component';
+import { Library } from '../library.model';
 
 @Component({
   selector: 'app-library-item',
