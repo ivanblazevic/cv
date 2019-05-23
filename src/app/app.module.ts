@@ -9,6 +9,8 @@ import { OpenSourceComponent } from './open-source/open-source.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceItemComponent } from './experience/experience-item/experience-item.component';
 import { OpenSourceItemComponent } from './open-source/open-source-item/open-source-item.component';
+import { LibrariesComponent } from './open-source/libraries/libraries.component';
+import { CodeComponent } from './open-source/code/code.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { OpenSourceItemComponent } from './open-source/open-source-item/open-sou
     OpenSourceComponent,
     AboutComponent,
     ExperienceItemComponent,
-    OpenSourceItemComponent
+    OpenSourceItemComponent,
+    LibrariesComponent,
+    CodeComponent
   ],
   imports: [
     BrowserModule,
