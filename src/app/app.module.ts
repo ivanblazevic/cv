@@ -11,6 +11,7 @@ import { ExperienceItemComponent } from './experience/experience-item/experience
 import { OpenSourceItemComponent } from './open-source/open-source-item/open-source-item.component';
 import { LibrariesComponent } from './open-source/libraries/libraries.component';
 import { CodeComponent } from './open-source/code/code.component';
+import { LibraryItemComponent } from './open-source/libraries/library-item/library-item.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CodeComponent } from './open-source/code/code.component';
     ExperienceItemComponent,
     OpenSourceItemComponent,
     LibrariesComponent,
-    CodeComponent
+    CodeComponent,
+    LibraryItemComponent
   ],
   imports: [
     BrowserModule,
