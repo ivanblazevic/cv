@@ -11,10 +11,16 @@ const routes: Routes = [
   {
     path: 'experience',
     component: ExperienceComponent,
+    data: {
+      animation: 'Experience'
+    }
   },
   {
     path: 'open-source',
     component: OpenSourceComponent,
+    data: {
+      animation: 'OpenSource'
+    },
     children: [
       { path: '', redirectTo: 'libraries', pathMatch: 'full' },
       {
@@ -30,6 +36,9 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent,
+    data: {
+      animation: 'About'
+    }
   }
 ];
 
