@@ -1,5 +1,5 @@
 <a target="_blank" [href]="data.link">
-  <div class="box">
+  <div class="box" (mouseenter)="onHover()">
     <span class="box-title">{{ data.title }}</span>
     <div class="box-description">{{ data.description }}</div>
   </div>

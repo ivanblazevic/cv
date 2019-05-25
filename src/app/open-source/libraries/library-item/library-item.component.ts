@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Howl } from 'howler';
 import { Library } from '../library.model';
 
 @Component({
@@ -9,4 +10,13 @@ import { Library } from '../library.model';
 export class LibraryItemComponent {
   @Input()
   data: Library;
+
+  private sound = new Howl({
+    src: ['assets/sounds/ui_tap-variant-01.wav']
+  });
+
+  onHover(): void {
+    this.sound.play();
+  }
+
 }
