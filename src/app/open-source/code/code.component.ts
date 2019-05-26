@@ -1,15 +1,37 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Howl } from 'howler';
 
 @Component({
   selector: 'app-code',
   templateUrl: './code.component.html',
   styleUrls: ['./code.component.scss']
 })
-export class CodeComponent implements OnInit {
+export class CodeComponent {
 
-  constructor() { }
+  examples = [
+    {
+      link: "https://stackblitz.com/edit/angular-maps-custom-markers-pointers",
+      title: "Custom markers for maps",
+      img: "assets/maps.jpg"
+    },
+    {
+      link: "https://stackblitz.com/edit/angular-maps-custom-markers-pointers",
+      title: "Custom markers for maps",
+      img: "assets/maps.jpg"
+    },
+    {
+      link: "https://stackblitz.com/edit/angular-maps-custom-markers-pointers",
+      title: "Custom markers for maps",
+      img: "assets/maps.jpg"
+    }
+  ]
 
-  ngOnInit() {
+  private sound = new Howl({
+    src: ['assets/sounds/ui_tap-variant-01.wav']
+  });
+
+  onHover(): void {
+    this.sound.play();
   }
 
 }
