@@ -1,5 +1,8 @@
 <div class="flex-grid">
-  <div class="flex-item" *ngFor="let item of items">
-    <app-library-item [data]="item"></app-library-item>
+  <div class="flex-item" *ngFor="let item of items;let i = index">
+    <app-box [link]="item.link" [index]="i" [minHeight]="92">
+      <span class="box-title">{{ item.title }}</span>
+      <div class="box-description">{{ item.description }}</div>
+    </app-box>
   </div>
 </div>

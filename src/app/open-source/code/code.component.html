@@ -1,12 +1,10 @@
 <div class="flex-grid">
   <div class="flex-item" *ngFor="let item of examples;let i = index">
-    <a target="_blank" [href]="item.link" class="slide-in-fwd-center" [style.animationDelay]="(0.2 * i) + 's'" (mouseenter)="onHover()">
-      <div class="box">
-        <div class="box-image-container">
-          <img [src]="item.img">
-        </div>
-        <span class="box-title">{{ item.title }}</span>
+    <app-box [link]="item.link" [index]="i">
+      <div class="box-image-container">
+        <img [src]="item.img">
       </div>
-    </a>
+      <span class="box-title">{{ item.title }}</span>
+    </app-box>
   </div>
 </div>

@@ -2,6 +2,12 @@
 @import './styles/box';
 @import './styles/flex-grid';
 
+// animations
+@import './styles/animations/swing-in-left-bck';
+@import './styles/animations/slide-in-blurred-top';
+@import './styles/animations/swing-in-top-fwd';
+@import './styles/animations/tracking-in-expand-fwd-top';
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Howl } from 'howler';
 
 @Component({
   selector: 'app-code',
@@ -25,13 +24,4 @@ export class CodeComponent {
       img: "assets/maps.jpg"
     }
   ]
-
-  private sound = new Howl({
-    src: ['assets/sounds/ui_tap-variant-01.wav']
-  });
-
-  onHover(): void {
-    this.sound.play();
-  }
-
 }

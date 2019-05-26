@@ -1,0 +1,9 @@
+<a target="_blank" 
+  [href]="link"
+  class="slide-in-fwd-center"
+  [style.animationDelay]="(0.2 * index) + 's'"
+  (mouseenter)="onHover()">
+  <div class="box" [style.minHeight]="minHeight + 'px'">
+    <ng-content></ng-content>
+  </div>
+</a>

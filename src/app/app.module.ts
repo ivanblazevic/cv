@@ -13,7 +13,7 @@ import { ExperienceItemComponent } from './experience/experience-item/experience
 import { OpenSourceItemComponent } from './open-source/open-source-item/open-source-item.component';
 import { LibrariesComponent } from './open-source/libraries/libraries.component';
 import { CodeComponent } from './open-source/code/code.component';
-import { LibraryItemComponent } from './open-source/libraries/library-item/library-item.component';
+import { BoxComponent } from './shared/components/box/box.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { LibraryItemComponent } from './open-source/libraries/library-item/libra
     OpenSourceItemComponent,
     LibrariesComponent,
     CodeComponent,
-    LibraryItemComponent
+    BoxComponent
   ],
   imports: [
     BrowserModule,
