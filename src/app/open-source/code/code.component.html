@@ -1,6 +1,6 @@
 <div class="flex-grid">
   <div class="flex-item" *ngFor="let item of examples;let i = index">
-    <app-box [link]="item.link" [index]="i">
+    <app-box [link]="item.link" [animationDelay]="(0.2 * i)">
       <div class="box-image-container">
         <img [src]="item.img">
       </div>

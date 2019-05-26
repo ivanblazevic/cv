@@ -11,7 +11,7 @@ export class BoxComponent {
   link: string;
 
   @Input()
-  index: number;
+  animationDelay: number;
 
   @Input()
   minHeight: number;
