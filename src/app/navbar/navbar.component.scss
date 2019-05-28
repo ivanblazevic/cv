@@ -12,6 +12,7 @@ nav {
     background: white;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
     z-index: 100;
+    min-width: 1024px;
 }
 
 ul {
@@ -44,6 +45,7 @@ ul {
 #logo {
     display: flex;
     cursor: pointer;
+    margin-left: 12px;
 }
 
 $profileImageSize: 60px;
