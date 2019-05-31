@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/shared/styles/variables';
 @import './styles/box';
 @import './styles/flex-grid';
 
@@ -17,4 +18,8 @@ body {
 
 :focus {
     outline: none;
+}
+
+a {
+    color: $primary-color;
 }

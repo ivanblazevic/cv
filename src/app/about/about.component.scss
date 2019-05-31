@@ -1,6 +1,4 @@
-$color: #0f81ff;
-
-img {
+img#profile {
     border-radius: 100%;
 }
 
@@ -8,10 +6,6 @@ img {
     i {
         width: 30px;
         text-align: center;
-    }
-
-    a {
-        color: $color;
     }
 }
 
@@ -31,4 +25,13 @@ h1 {
     a {
         text-decoration: none;
     }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
 }

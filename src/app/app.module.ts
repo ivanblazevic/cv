@@ -14,6 +14,7 @@ import { OpenSourceItemComponent } from './open-source/open-source-item/open-sou
 import { LibrariesComponent } from './open-source/libraries/libraries.component';
 import { CodeComponent } from './open-source/code/code.component';
 import { BoxComponent } from './shared/components/box/box.component';
+import { SocialComponent } from './about/social/social.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BoxComponent } from './shared/components/box/box.component';
     OpenSourceItemComponent,
     LibrariesComponent,
     CodeComponent,
-    BoxComponent
+    BoxComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
