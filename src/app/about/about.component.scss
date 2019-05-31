@@ -1,5 +1,13 @@
+.header-section {
+    display: flex;
+}
+
 img#profile {
     border-radius: 100%;
+}
+
+.tracking-in-expand-fwd-top {
+    margin-left: 20px;
 }
 
 .info-section {
@@ -20,15 +28,10 @@ h1 {
 }
 
 .download {
-    text-align: center;
     padding: 50px 0;
     a {
         text-decoration: none;
     }
-}
-
-.text-center {
-    text-align: center;
 }
 
 .social {

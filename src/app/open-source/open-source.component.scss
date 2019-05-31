@@ -1,4 +1,8 @@
-$primary-color: #0f81ff;
+@import '../shared/styles/variables';
+
+.tabs-container {
+    margin-bottom: 60px;
+}
 
 .button {
     padding: 10px 20px;

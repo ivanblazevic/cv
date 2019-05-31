@@ -13,6 +13,14 @@ nav {
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
     z-index: 100;
     min-width: 1024px;
+
+    #title {
+        margin: auto 10px;
+        font-size: 26px;
+        text-align: left;
+        text-transform: capitalize;
+        color: $secondary-color;
+    }
 }
 
 ul {
@@ -20,7 +28,7 @@ ul {
     padding: 0;
 
     li {
-        color: gray;
+        color: $secondary-color;
         text-align: center;
         margin: 0 24px;
         display: inline-block;
