@@ -2,8 +2,25 @@ import { ExperienceItem } from "./experience.model";
 
 export const EXPERIENCES: ExperienceItem[] = [
     {
+        title: "Lead Frontend Developer, Platomics GMBH",
+        date: "2019 - present",
+        logo: "platomics.webp",
+        site: "https://www.platomics.com",
+        items: [
+            "Creating HQ prototypes using Figma",
+            "Pipeline integration using docker images on GitLabs",
+            "Leading small frontend team, interviewing candidates",
+            "Ensuring code quality using linters and SonarQube",
+            "Working in the agile process model (Scrum)",
+            "Implementation using Angular 8, NGXS for state management, TestCafe (e2e tests) & JEST (unit tests), Swagger & OpenAPI for communication with backend"
+            
+        ]
+    },
+    {
         title: "Lead Frontend Developer, PALFINGER AG",
-        date: "2018 - present",
+        date: "2018 - 2019",
+        logo: "palfinger.svg",
+        site: "https://www.palfinger.com",
         items: [
             "UI/UX implementation lead",
             "Taking care about the code quality by utilizing dedicated tools during the build process, managing build pipelines",
@@ -17,6 +34,8 @@ export const EXPERIENCES: ExperienceItem[] = [
     {
         title: "Lead Frontend Developer, Aquicore Inc.",
         date: "2013 - 2016",
+        logo: "aquicore.png",
+        site: "https://aquicore.com",
         items: [
             "SaaS enterprise software frontend architect",
             "Participated in all stages of the product life cycle",
@@ -31,6 +50,8 @@ export const EXPERIENCES: ExperienceItem[] = [
     {
         title: "DevOps, NTH Mobile",
         date: "2009 - 2013",
+        logo: "nth.png",
+        site: "https://www.nth-mobile.com",
         items: [
             "Platform/db administrator, maintenance and troubleshooting, system integration",
             "Analyzed technical requirements and technical implementation/development/maintenance of mobile services",

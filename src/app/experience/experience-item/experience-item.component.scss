@@ -7,8 +7,19 @@
 
     .date {
         margin-top: 10px;
-        width: 150px;
+        min-width: 150px;
         text-align: right;
+
+        .company-logo {
+            width: 120px;
+            margin-top: 12px;
+            filter: gray; /* IE6-9 */
+            -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */  
+            &:hover {
+                filter: none;
+                -webkit-filter: grayscale(0%);
+            }
+        }
     }
 
     .separator {
