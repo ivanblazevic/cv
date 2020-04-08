@@ -1,8 +1,0 @@
-<div class="flex-grid">
-  <div class="flex-item" *ngFor="let item of items;let i = index">
-    <app-box [link]="item.link" [animationDelay]="isTabSwitched ? (0.2 * i) : (0.2 * i) + 0.4" [minHeight]="92">
-      <span class="box-title">{{ item.title }}</span>
-      <div class="box-description">{{ item.description }}</div>
-    </app-box>
-  </div>
-</div>
