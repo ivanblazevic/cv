@@ -27,5 +27,7 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v2
       - name: Install deps
-        run: yarn install
-
+        run: |
+          yarn install
+          yarn build
+          git subtree push --prefix build origin gh-pages
